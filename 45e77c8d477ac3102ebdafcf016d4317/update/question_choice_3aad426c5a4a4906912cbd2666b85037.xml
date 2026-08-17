@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
-  <question_choice action="INSERT_OR_UPDATE">
-    <sys_id>3aad426c5a4a4906912cbd2666b85037</sys_id>
-    <sys_scope display_value="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
-    <sys_update_name>question_choice_3aad426c5a4a4906912cbd2666b85037</sys_update_name>
-    <inactive>false</inactive>
-    <order>2</order>
-    <question cat_item="31d30b7dc68d48729ae11b9b28661e6a" name="request_type" variable_set="NULL">f4ce693833d3416fa17528e7f373a9c1</question>
-    <text>Software</text>
-    <value>software</value>
-  </question_choice>
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Request Type">f4ce693833d3416fa17528e7f373a9c1</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 12:58:12</sys_created_on>
+        <sys_id>3aad426c5a4a4906912cbd2666b85037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software</sys_name>
+        <sys_package display_value="Employee Central" source="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Central">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
+        <sys_update_name>question_choice_3aad426c5a4a4906912cbd2666b85037</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 12:58:12</sys_updated_on>
+        <text>Software</text>
+        <value>software</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3aad426c5a4a4906912cbd2666b85037"/>
 </record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="d33516e3469c41d9933edccb52316399" label="Employee Request" name="x_979292_employe_0_request" type="collection">
+        <element label="Request Type" mandatory="true" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="2" value="software"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+            </choice>
+        </element>
+        <element default="open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Open" sequence="1" value="open"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="Fulfilled" sequence="3" value="fulfilled"/>
+            </choice>
+        </element>
+        <element label="Business Justification" mandatory="true" max_length="4000" name="business_justification" type="multi_two_lines"/>
+        <element display="true" label="Item Name" mandatory="true" max_length="200" name="item_name" type="string"/>
+        <element default="medium" label="Urgency" mandatory="true" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+            </choice>
+        </element>
+    </element>
+</database>

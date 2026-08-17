@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
-  <question_choice action="INSERT_OR_UPDATE">
-    <sys_id>70bb1cbf1bd8477da3b37b5f2260977d</sys_id>
-    <sys_scope display_value="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
-    <sys_update_name>question_choice_70bb1cbf1bd8477da3b37b5f2260977d</sys_update_name>
-    <inactive>false</inactive>
-    <order>2</order>
-    <question cat_item="31d30b7dc68d48729ae11b9b28661e6a" name="urgency" variable_set="NULL">4fe105d4e0ba4444be748d2c80396ea2</question>
-    <text>Medium</text>
-    <value>medium</value>
-  </question_choice>
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Urgency">4fe105d4e0ba4444be748d2c80396ea2</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-17 12:58:12</sys_created_on>
+        <sys_id>70bb1cbf1bd8477da3b37b5f2260977d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="Employee Central" source="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Central">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
+        <sys_update_name>question_choice_70bb1cbf1bd8477da3b37b5f2260977d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-17 12:58:12</sys_updated_on>
+        <text>Medium</text>
+        <value>medium</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=70bb1cbf1bd8477da3b37b5f2260977d"/>
 </record_update>
