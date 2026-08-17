@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set action="INSERT_OR_UPDATE" field="status" table="x_979292_employe_0_request" version="3">
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>30d030abbcea4d64bab7465eb29263e2</sys_id>
+      <element>status</element>
+      <name>x_979292_employe_0_request</name>
+      <sys_class_name>sys_choice_set</sys_class_name>
+      <sys_scope display_value="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
+      <sys_package display_value="x_979292_employe_0" source="45e77c8d477ac3102ebdafcf016d4317">45e77c8d477ac3102ebdafcf016d4317</sys_package>
+      <sys_update_name>sys_choice_x_979292_employe_0_request_status</sys_update_name>
+      <sys_name>status</sys_name>
+    </sys_choice_set>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>a5330c644e4f4b528f461febeb77e25c</sys_id>
+      <name>x_979292_employe_0_request</name>
+      <element>status</element>
+      <label>Open</label>
+      <value>open</value>
+      <sequence>1</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>5ba8ec363f1144599a5c11e13951f3ac</sys_id>
+      <name>x_979292_employe_0_request</name>
+      <element>status</element>
+      <label>In Progress</label>
+      <value>in_progress</value>
+      <sequence>2</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>f6f615591eb14c889abd614aba788738</sys_id>
+      <name>x_979292_employe_0_request</name>
+      <element>status</element>
+      <label>Fulfilled</label>
+      <value>fulfilled</value>
+      <sequence>3</sequence>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>d7b1bde4b49e4e8db1fd21cbbc525858</sys_id>
+      <name>x_979292_employe_0_request</name>
+      <element>status</element>
+      <label>Closed</label>
+      <value>closed</value>
+      <sequence>4</sequence>
+      <language>en</language>
+    </sys_choice>
+  </sys_choice_set>
+</record_update>

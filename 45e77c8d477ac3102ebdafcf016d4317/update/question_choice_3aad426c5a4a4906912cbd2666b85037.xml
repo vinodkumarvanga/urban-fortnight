@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+  <question_choice action="INSERT_OR_UPDATE">
+    <sys_id>3aad426c5a4a4906912cbd2666b85037</sys_id>
+    <sys_scope display_value="x_979292_employe_0">45e77c8d477ac3102ebdafcf016d4317</sys_scope>
+    <sys_update_name>question_choice_3aad426c5a4a4906912cbd2666b85037</sys_update_name>
+    <inactive>false</inactive>
+    <order>2</order>
+    <question cat_item="31d30b7dc68d48729ae11b9b28661e6a" name="request_type" variable_set="NULL">f4ce693833d3416fa17528e7f373a9c1</question>
+    <text>Software</text>
+    <value>software</value>
+  </question_choice>
+</record_update>
